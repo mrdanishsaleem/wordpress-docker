@@ -37,7 +37,7 @@ This repository contains a simple setup to run WordPress using Docker and Docker
         - db
 
     db:
-        image: mysql:5.7
+        image: mysql:latest
         environment:
         MYSQL_DATABASE: exampledb
         MYSQL_USER: exampleuser
