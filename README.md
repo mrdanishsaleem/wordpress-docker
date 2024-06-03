@@ -85,7 +85,8 @@ To view the logs of your containers, use:
 
 If you need to change any configuration (like database credentials), update the `docker-compose.yml` file and run:
 
-    ```sh
-    docker-compose up -d
-    ```
+```sh
+docker-compose up -d
+```
+
 This will recreate the containers with the updated configuration.
